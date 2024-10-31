@@ -1,0 +1,121 @@
+.mce-glvrd-tooltip .mce-tooltip-inner {
+    max-width: none;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.mce-glvrd-tooltip .mce-tooltip-inner strong {
+    color: inherit;
+    font-family: inherit;
+}
+
+.glvrd-underline {
+    color: #dA570f;
+    background: url(../images/underline.svg) 0 100% repeat-x;
+
+    border-radius: .2em;
+    padding: 3px 2px;
+    margin: 0 -2px;
+}
+
+
+.glvrd-underline-active {
+    background: #fdc;
+    -webkit-transition: background-color .25s, color .25s;
+}
+
+.glvrd-underline-hover {
+	-webkit-transition: background-color 0s, color 0s;
+    background: #DA570F;
+    color: #fff;
+}
+
+#glvrd_section .info {
+    margin-bottom: 1em;
+}
+
+#glvrd_section .stats {
+    -border-top: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: .5em;
+    color: #333;
+    font-size: .8em;
+    line-height: 1.4em;
+    height: 2.3em;
+    overflow: hidden;
+}
+
+#glvrd_section .stats span.value {
+    font-weight: bold;
+}
+
+
+#glvrd_section .stats .stats-score-div,
+#glvrd_section .stats .stats-text-div,
+#glvrd_section .stats .stats-result-div {
+    float: left;
+}
+
+#glvrd_section .stats .stats-score-div {
+    width: 33%;
+}
+
+#glvrd_section .stats .stats-text-div {
+    width: 25%;
+}
+
+#glvrd_section .stats .stats-result-div {
+    width: 41%;
+}
+
+#glvrd_section .stats .stats-score {
+    display: block;
+    float: left;
+    height: 30px;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 26px;
+    padding-top: 2px;
+    margin-right: 8px;
+}
+
+#glvrd_section .stats-score.green {
+    color: #077213;
+}
+
+#glvrd_section .stats-score.orange {
+    color: #da570f;
+}
+
+#glvrd_section .stats-score.red {
+    color: #bb0002;
+}
+
+#glvrd_section .stats .stats-sections {
+    margin-right: -1em;
+}
+
+#glvrd_section .stats .stats-sections em {
+    margin-right: .5em;
+
+    font-style: normal;
+    color: #da570f;
+    border-bottom: 1px dotted #fdc;
+    border-radius: 0.1px; /* HACK to aviod double and triple dots on Safari */
+}
+
+
+#glvrd_section .stats .stats-sections em.active {
+    background: #fdc;
+    border-bottom-color: #fdc;
+}
+
+
+#glvrd_section .stats.processing .stats-score,
+#glvrd_section .stats.processing .stats-stopwords,
+#glvrd_section .stats.processing .stats-stopwords-suffix,
+#glvrd_section .stats.processing .stats-sections-prefix,
+#glvrd_section .stats.processing .stats-sections em {
+    color: #999;
+    border-color: #ccc;
+}
